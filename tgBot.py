@@ -23,7 +23,7 @@ last_updated_at  = 0
 
 cg = CoinGeckoAPI()
 
-updater = Updater(token = "1362045964:AAFXztbe-C8Z_K92ibtD7BwJ19FY7kVN-5w",
+updater = Updater(token = "",
                   use_context=True)
 
 dispatcher: Dispatcher = updater.dispatcher
