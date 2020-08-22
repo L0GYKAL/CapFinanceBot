@@ -30,9 +30,8 @@ dispatcher: Dispatcher = updater.dispatcher
 
 def getPrice(update: Update, context: CallbackContext):
     """
-    the callback for handling start command
+    the callback for handling /cap command
     """
-    print("carapuce")
     bot: Bot = context.bot
     global last_updated_at
     
